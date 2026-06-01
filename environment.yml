@@ -1,0 +1,12 @@
+name: recordsnd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ffmpeg
+  - numpy
+  - pip
+  - pip:
+      - soundcard
+      - soundfile
+      - screeninfo
